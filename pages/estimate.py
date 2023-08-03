@@ -98,7 +98,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
@@ -121,7 +121,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
@@ -144,7 +144,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
@@ -167,7 +167,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
@@ -190,7 +190,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
@@ -213,7 +213,7 @@ if (target) is not None and data[target].dtype in ['int64', 'float64'] :
                 q= st.number_input(f"Enter value for {i}")
                 predict[i]=[q]
             else:
-                p= st.selectbox('choose value', x_train[i].unique())
+                p= st.selectbox(f'choose value for {i}', x_train[i].unique())
                 predict[i]=[p]
         
         st.write(pipe.predict(pd.DataFrame(predict)))
